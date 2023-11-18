@@ -1,0 +1,98 @@
+header{
+     background-color: crimson;
+    height: 400px;    /*высота блока*/
+    color: darkblue; /*цвет текста*/
+font-size: 33px;    /*рамер текста*/
+background-image: url("art.jpg");
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+}
+
+h1{
+    text-align: center;
+    font-size: 85px;
+    color: firebrick;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: black 2px 5px 5px;
+    margin: 0;
+    padding-top: 30px;
+}
+h2{
+    text-align: center;
+    font-size: 65px;
+}
+
+body{margin: 0;}
+main{
+    background-color: chocolate;
+    height: 100%;
+    color: chartreuse;
+    font-size: 34px;
+    display: flex;
+    justify-content: center;
+
+    background-image: url(https://s.auto.drom.ru/i24262/c/photos/fullsize/subaru/forester/gen473_subaru_forester_1034516.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+footer{
+    height: 100%;
+    color: blueviolet;
+    font-size: 40px;
+    background: radial-gradient(circle, red, orange);
+    display: flex;
+}
+
+.left{
+    background-color: rgba(218, 165, 32, 0.664);
+    height: 100%;
+    width: 50%;
+    float:left;
+    padding-top: 90px;
+    padding-left: 20px;
+    padding-right: 70px;
+    text-align: justify;
+}
+
+.right{
+    background-color: rgba(165, 42, 42, 0.664);
+    height: 100%;
+    width: 50%;
+    float: right;
+    padding-top:100px;
+    padding-left:70px;
+    padding-right: 120px;
+}
+
+.cont{   
+    width: 80%;
+height: 100%;
+display: flex;
+}
+.f_left{
+    width: 30%;
+    float: left;
+    text-align: center;
+    padding: 20px;
+}
+.f_left img{
+    padding-top: 20px;
+}
+.f_left img{
+    width: 100px;
+}
+.f_right{
+    width: 70%;
+    float: right;
+}
+
+.f_right img{width: 
+    100px;}
+.f_right img{width:
+     100px;}
+
+.f_right ul{
+    list-style:none;
+}
+
